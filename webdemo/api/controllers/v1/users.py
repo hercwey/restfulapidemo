@@ -1,5 +1,3 @@
-
-
 import pecan
 from pecan import request
 from pecan import rest
@@ -20,7 +18,6 @@ class Users(wtypes.Base):
 
 
 class UserController(rest.RestController):
-
     def __init__(self, user_id):
         self.user_id = int(user_id)
 
@@ -46,7 +43,6 @@ class UserController(rest.RestController):
 
 
 class UsersController(rest.RestController):
-
     @pecan.expose()
     def _lookup(self, user_id, *remainder):
         return UserController(user_id), remainder

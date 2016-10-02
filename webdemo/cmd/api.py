@@ -1,4 +1,3 @@
-
 from wsgiref import simple_server
 
 from webdemo.api import app

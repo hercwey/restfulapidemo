@@ -1,10 +1,8 @@
-
 from sqlalchemy import create_engine
 import sqlalchemy.orm
 from sqlalchemy.orm import exc
 
 from webdemo.db import models as db_models
-
 
 _ENGINE = None
 _SESSION_MAKER = None
@@ -37,7 +35,6 @@ def get_session():
 
 
 class Connection(object):
-
     def __init__(self):
         pass
 

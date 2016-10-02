@@ -1,4 +1,3 @@
-
 from pecan import hooks
 
 from webdemo.db import api as db_api

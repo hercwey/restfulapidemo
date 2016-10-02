@@ -1,8 +1,6 @@
-
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext import declarative
 from sqlalchemy import Index
-
 
 Base = declarative.declarative_base()
 

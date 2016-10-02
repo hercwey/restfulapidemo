@@ -1,4 +1,3 @@
-
 import pecan
 
 from webdemo.api import config as api_config

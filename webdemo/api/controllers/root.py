@@ -1,4 +1,3 @@
-
 from pecan import rest
 from wsme import types as wtypes
 
